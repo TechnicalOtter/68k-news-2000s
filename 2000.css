@@ -1,0 +1,88 @@
+/*
+ * 2000.css - The 2000's appearnce for 68k news!
+ *
+ * Why?
+ * I wanted a slightly more 'modern' view for the 68k news page for my Windows XP/Vista machines.
+ * It's all in good fun.
+ * - TechnicalOtter
+*/
+
+
+body {
+    padding:0;
+    margin: 0;
+    font-family: sans-serif;
+    width: 1024px;
+}
+
+#infobar
+{
+    background-color: #000000;
+    color: #FFFFFF;
+}
+
+#infobar a
+{
+    color: #CECECE;
+}
+
+#infobar a:hover
+{
+    color: #282828;
+}
+
+#infobar a:visited
+{
+    color: #888888;
+}
+
+#header{
+    border: 1px solid black;
+    background-color: #9A0000;
+    color: #FFFFFF;
+}
+
+#header a
+{
+    color: #FFFFFF;
+    text-decoration: underline;
+}
+
+.frontpage-article
+{
+    padding-left: 10px;
+    padding-right: 10px;
+    border-bottom: 1px dashed #9A0000;
+}
+
+#section-title
+{
+    padding-left: 10px;
+    border-bottom: 2px dashed #9A0000;
+}
+
+#article
+{
+    /*margin-left: 1px;
+    margin-right: 1px;*/
+}
+
+.article-lhs
+{
+    padding: 2px;
+    font-size: 10pt;
+    background-color: #EEEEEE;
+}
+
+.lhs-link
+{
+    text-align: right;
+    margin: 0px;
+    margin-bottom: 3px;
+    padding-right: 3px;
+}
+
+#article-text
+{
+    margin-left:3px;
+}
